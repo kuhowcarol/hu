@@ -1,0 +1,124 @@
+
+* { box-sizing: border-box;
+}
+
+body {background-color: #b52025;
+  height:1000px; width:1100px;
+  font-family: Arual, Candara, sans-serif;
+  opacity: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{font-family: Arual, sans-serif,;
+  font-weight: bolder;
+  color: #b52025; 
+  font-size: 3.5em;
+  height:180px;
+  padding-top: 8px;
+  padding-left: 10px; 
+  padding-bottom: 20px;
+  text-shadow: 3px 3px 3px #999;
+  background-image: url(thickerlatest.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200px 130px;
+}
+
+nav {word-spacing: 1em;
+  font-weight:bolder;
+  font-size: 20px;
+  text-align:center;
+  background-color: #b52025;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a{ text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav a:visited { color: #000000;
+}
+nav a:hover { color: #ffffff; 
+}
+nav a{ color: #ffffff;
+}
+nav a{ color: #ffffff;
+}
+nav a{ color: #ffffff;
+}
+
+h2{position: center;
+}
+
+main{background-image: url(01Love.jpeg);
+  background-size: 1100px 700px;
+  background-repeat: no-repeat;
+  color:#FFF;
+  padding:25em;
+}
+h3{position:left;
+}
+h4{position:right;
+}
+p{font-family: candara, sans-serif;
+  padding-bottom: 30px;
+}
+blockquote{font-family: candara, sans-serif;
+}
+span{font-family: candara, sans-serif;
+  
+}
+
+.float { float: left;
+  padding-right: 30px;
+}
+
+.float2 { float: right;
+  padding-left: 30px;
+}
+.float3{ float:left;
+}
+
+.row{width: 900px; height:200px;
+  text-align: left;
+  margin: auto;
+}
+
+.card{width: 900px; height:210px;
+  text-align: right;
+  margin: auto;
+}
+.usp{width: 900px; height:210px;
+  text-align: right;
+  margin: auto;
+}
+
+.ourlogo{width: 1100px; height:210px;
+  text-align: center;
+  padding-right: 50px;
+}
+
+#wrapper{background-color: #ffffff;
+  padding:1.8em;
+  width:80%;
+  min-width: 1100px;
+  max-width: 1300px;
+  min-height: 2300px;
+  margin-left:auto;
+  margin-right:300px;
+}
+
+dl{text-align: center;
+}
+footer{font-family: Arual,serif;
+  word-spacing: 1px;
+  background-color: #b52025;
+  color:#ffffff;
+  text-align: center;
+  min-width: 1000px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 14px;
+}

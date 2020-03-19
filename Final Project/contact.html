@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts Us</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
+<script>
+    function create(){
+        var newElement = document.createElement("p");
+        newElement.appendChild(document.createTextNode("Thank you!"));
+        document.body.appendChild(newElement);
+}
+
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+ <header>
+   <h1>FLIPPED</h1>
+ </header>
+
+ <br></br>
+   <nav>
+      <a href="Flipped.html"><u>Home</u></a> &nbsp;
+      <a href="products.html"><u>Products</u></a> &nbsp;
+      <a href="About Us.html"><u>About Us</u></a> &nbsp;
+      <a href="Contact.html"><u>Contact Us</u></a> &nbsp;
+  </nav>
+
+<body>
+ 
+    <div class="container">
+        <h2><u><b>Contacts Form</b></u></h2>
+            <form id="contact-form" class='contact-form'>
+            <label class="name">Your Name:
+            <input type="text" name="name" value="" required="">                
+            </label>
+                
+            <label class="email">Your E-mail:
+            <input type="text" name="email" value="" required="">                
+            </label>
+                
+            <label class="Subject">Subject:
+            <input type="text" name="phone" value="" required="">                  
+            </label>
+                
+            <label class="message">Message:
+            <textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=500)'>
+            </textarea>                
+            </label>
+            
+            <div class="button">
+            <input type="submit" onclick="create()"></a>
+            </div>
+    </div>
+    <div class="row">
+            <div class="contactsinformation">
+                <h2><u><b>Contacts Information</u></b></h2>
+                <h4>A café that help you find your soulmate.</h4>
+                    <p>Flipped Café combines good and love perfectly. We are the perfect combination of food and love. We provide a match making service for customers to find their soulmate. Customer can meet their date at our café where it is safer than online dating apps.
+                    <br><br>
+                    Please do not hesitate to contact us! 
+                    <br><br>
+                    Thank you for visting this website :)</p>
+            </div>
+                <div class="address">
+                    <p>Flipped
+                    <br><br>
+                    69, Starlight St. 11/2, 47500, Subang Jaya, Selangor 
+                    </p>
+                
+                    <dl>
+                    <dt>Contact Number:</dt>+603-9069888<dd></dd>
+                      <div class="btn-o bg" data-scribe="component:button" style="width: 100%;">
+                          <a href="https://instagram.com/flipped535?igshid=a1hzu40hl29p" class="btn" id="b">
+                      <div><i class="fa fa-instagram ft60 clr-prl"></i> </div>
+                      <span class="label" id="l">Instagram</span></a>
+                    </div>
+                    <br>
+                    <dt>E-mail:</dt><a href="flippedcafe@flipped.org">flippedcafe@flipped.org</a></dd>
+                    </dl>
+                </div>
+        </form>
+    </div>
+    </body>
+
+<footer>
+<h5> 69, Starlight St. 11/2, 47500, Subang Jaya, Selangor</h5>
+<dl>
+  <dt>Contact Number:</dt>+603-9069888<dd></dd>
+  <br>
+  <dt>E-mail:</dt><a href="flippedcafe@flipped.org">flippedcafe@flipped.org</a></dd>
+  </dl>
+  Copyright &copy; 2020. FLIPPED. All Right Reserved.
+</footer>
+</html>
+
